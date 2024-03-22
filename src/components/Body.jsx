@@ -8,7 +8,7 @@ const Body = () => {
     <>
     
     <div className='flex'>
-      <div className='w-64'>  <Sidebar/></div>
+        <Sidebar/>
       <Outlet/>
     </div>
     </>

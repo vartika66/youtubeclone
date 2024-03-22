@@ -8,7 +8,7 @@ const Sidebar = () => {
   //Early return pattern coding
   if (!isMenuOpen) return null;
   return (
-    <div className="shadow-lg">
+    <div className="shadow-lg w-75 mx-5">
       <ul>
        
           <li>Home</li>
